@@ -2,7 +2,7 @@ const App = () => {
     return React.createElement(
         'div',
         {},
-        React.createElement('h1', {}, 'Adopt Me')
+        React.createElement('h1', {id: "brand"}, 'Adopt Me')
     );
 }
 
