@@ -2,8 +2,9 @@
   "name": "adopt-me",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
@@ -23,6 +24,6 @@
     "react-dom": "^17.0.2"
   },
   "browsersList": [
-    "last 2 Chrome versions"
+    "last 2 Chrome"
   ]
 }
