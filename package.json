@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
@@ -14,6 +15,14 @@
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
+    "parcel": "^2.5.0",
     "prettier": "^2.6.2"
-  }
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browsersList": [
+    "last 2 Chrome versions"
+  ]
 }
